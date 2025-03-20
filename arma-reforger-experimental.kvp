@@ -81,4 +81,4 @@ App.ExecutableLinux=serverfiles/ArmaReforgerServer
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[arma-reforger-experimentalports.json]
 App.UpdateSources=@IncludeJson[arma-reforger-experimentalupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"1890860"}
